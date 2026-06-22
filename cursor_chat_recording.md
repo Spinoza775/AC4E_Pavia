@@ -18,3 +18,14 @@
 - Personal repos cannot use user-based bypass/restriction lists via API.
 
 **Note:** Self-approval is still impossible on GitHub; owner merges via admin bypass instead.
+
+## 2026-06-21 — Day 1 slides PDF added
+
+- **Action:** Copied instructor `slides/day1/day1_slides.pdf` to `slides/day1_slides.pdf` for participant access.
+- **Automation:** Instructor repo hook (`.cursor/hooks.json`) will prompt Composer to re-sync this file when the source Day 1 PDF is updated.
+
+## 2026-06-21 — Day 1 slides aligned with GUIDE.md
+
+- **Action:** Refactored Day 1 slides from instructor source to match `GUIDE.md` pedagogical sequence and Day 1 content.
+- **New slide topics:** agent ownership boundaries, `GUIDE.md` reference, Day 1 schedule-at-a-glance, project brief section, first safe issue, Day 1 exercises.
+- **File:** `slides/day1_slides.pdf` (48 pages).
